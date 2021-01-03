@@ -1,10 +1,30 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card{
+  background-color: #fff5e9;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 16px;
+box-shadow:  6px 6px 11px #dedede,
+             -6px -6px 11px #ffffff;
+}
+button{
+  background-color: #fbc561;
+  border-color: #fbc561;
+  border-radius: 5px;
+box-shadow:  2px 2px 5px #dedede,
+             -2px -2px 5px #ffffff;
+  margin: 0 0 10px 10px;
+}
+p{
+  font-size: 22px;
+  font-weight:700;
+  color: #ffa600;
+}
+h1{
+  color: #ffa600;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,16 +33,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
